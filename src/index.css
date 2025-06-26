@@ -1,0 +1,34 @@
+
+
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure html, body, and the root element take full height */
+    width: 100%; /* Ensure they take full width */
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+
+
+body {
+    font-family: 'Roboto', 'Arial', sans-serif; /* Google's preferred font family */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f4f7f6; /* Consistent with your MUI theme background */
+    color: #333; /* Default text color */
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+button {
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
