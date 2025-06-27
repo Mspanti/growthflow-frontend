@@ -8,7 +8,7 @@ import { jwtDecode } from 'jwt-decode';
 const AuthContext = createContext();
 
 
-const API_BASE_URL = import.meta.env.VITE_APP_API_URL;
+const API_BASE_URL = import.meta.env.VITE_APP_API_URL +'/api';
 
 
 const axiosInstance = axios.create({
